@@ -1,0 +1,9 @@
+file,true_group,pred_group,correct,proba_chemo
+CNTL-MB231,Control,Control,True,0.33878351535166035
+CNTL_75uM_p1,Control,Control,True,0.1172848055831931
+CNTL_75uM_p2,Control,Control,True,0.08443548315259165
+CNTL_75uM_p3,Control,Control,True,0.12170187168827117
+CNTL_75uM_p4,Control,Chemoresistant,False,0.5214207704121517
+TAMO-MB231,Chemoresistant,Chemoresistant,True,0.5170993504860426
+TAMO_p1,Chemoresistant,Chemoresistant,True,0.5403624625525659
+TAMO_p2,Chemoresistant,Chemoresistant,True,0.688263295582299

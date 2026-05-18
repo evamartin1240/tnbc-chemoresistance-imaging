@@ -1,0 +1,15 @@
+Temporal Analysis - Final Executive Summary
+===========================================
+
+LOOCV accuracy: 87.50%
+Best feature: 342_slope (coef=-0.8460)
+Misclassified file(s): TAMO-MB231
+
+Top channels by chemo-control gap at t=6 (more negative = stronger chemo decay):
+  - 342: -0.6727
+  - BODIPY: -0.4857
+  - TMRM: -0.4047
+
+Main conclusion:
+  Temporal dynamics carry transferable chemoresistance signal across sessions.
+  Channel 342 is the most robust marker in early time window analysis.

@@ -1,0 +1,3 @@
+Approach,LOOCV Accuracy,Correct,Avg Slope Stderr,Mean Measurements
+File-level,87.5%,7/8,-,-
+Cell-level,100.0%,8/8,0.00482218,1173

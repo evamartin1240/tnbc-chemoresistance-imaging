@@ -1,0 +1,5 @@
+metric,value
+LOOCV accuracy,87.50%
+Best feature,342_slope
+Best feature coefficient,-0.846
+Misclassified file(s),TAMO-MB231

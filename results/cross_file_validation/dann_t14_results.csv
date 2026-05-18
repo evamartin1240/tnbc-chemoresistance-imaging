@@ -1,0 +1,5 @@
+Fold,Class_Accuracy,Domain_Accuracy,Cells_Trained,Cells_Tested
+1,0.581395,0.581395,1557,731
+2,0.098746,0.0,1650,638
+3,0.722543,0.0,1769,519
+4,0.0,0.0,1888,400

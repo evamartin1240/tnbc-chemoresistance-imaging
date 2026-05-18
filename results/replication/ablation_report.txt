@@ -1,0 +1,39 @@
+======================================================================
+ABLATION STUDY: 342-ONLY vs 3-CHANNEL MODEL
+======================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+342-only accuracy:    87.5% (7/8)
+3-channel accuracy:   87.5% (7/8)
+Difference:           0.0%
+
+KEY FINDING
+----------------------------------------------------------------------
+Both models achieve IDENTICAL accuracy (87.5%, 7/8 correct).
+However, they fail on DIFFERENT samples:
+
+  • 342-only misclassifies: CNTL_75uM_p4
+    Type: False Positive (Control → Chemoresistant)
+
+  • 3-channel misclassifies: TAMO-MB231
+    Type: False Negative (Chemoresistant → Control)
+
+INTERPRETATION
+----------------------------------------------------------------------
+1. BODIPY and TMRM do NOT improve overall accuracy
+2. However, they change the error pattern (FP → FN)
+3. This suggests complementary decision boundaries
+
+RECOMMENDATION FOR THESIS
+----------------------------------------------------------------------
+Option A (Simplicity): Use 342 only
+  • Minimal model, maximum interpretability
+  • Same accuracy as 3-channel
+  • Aligned with Occam's Razor principle
+
+Option B (Robustness): Use 3-channel
+  • Shifts error to false negatives (clinically safer)
+  • Multiple biomarkers provide redundancy
+  • Better for high-confidence control classification
+

@@ -1,0 +1,35 @@
+# Core data science and ML
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Deep learning
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Image processing and visualization
+opencv-python>=4.5.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+Pillow>=8.3.0
+
+# Domain adaptation
+pytorch-dann>=0.1.0
+harmonypy>=0.0.7
+
+# Dimension reduction and clustering
+scikit-image>=0.18.0
+umap-learn>=0.5.0
+
+# Jupyter and notebook support
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Utilities
+tqdm>=4.62.0
+pyyaml>=5.4.0
+python-dotenv>=0.19.0

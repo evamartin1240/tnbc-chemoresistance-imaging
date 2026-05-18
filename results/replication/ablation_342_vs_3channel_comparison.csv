@@ -1,0 +1,9 @@
+file,true_group,342_pred,342_correct,342_proba_chemo,3ch_pred,3ch_correct,3ch_proba_chemo
+CNTL-MB231,Control,Control,True,0.33878351535166035,Control,True,0.43262448340786813
+CNTL_75uM_p1,Control,Control,True,0.1172848055831931,Control,True,0.0660847294380016
+CNTL_75uM_p2,Control,Control,True,0.08443548315259165,Control,True,0.045671507617700155
+CNTL_75uM_p3,Control,Control,True,0.12170187168827117,Control,True,0.02024844329090899
+CNTL_75uM_p4,Control,Chemoresistant,False,0.5214207704121517,Control,True,0.3937847907905942
+TAMO-MB231,Chemoresistant,Chemoresistant,True,0.5170993504860426,Control,False,0.4940341692235562
+TAMO_p1,Chemoresistant,Chemoresistant,True,0.5403624625525659,Chemoresistant,True,0.5896294615212389
+TAMO_p2,Chemoresistant,Chemoresistant,True,0.688263295582299,Chemoresistant,True,0.9607683718189414

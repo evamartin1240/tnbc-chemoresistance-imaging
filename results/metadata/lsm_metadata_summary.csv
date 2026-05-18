@@ -1,0 +1,3 @@
+file_name,file_size_GB,shape,n_tiles,n_channels,tile_size,has_imagej_metadata,file_label
+15uMtamoxifen.lsm,0.62,"(9, 33, 1024, 1024)",9,33,1024x1024,True,15uMtamoxifen
+75uMtamoxifen.lsm,0.62,"(9, 33, 1024, 1024)",9,33,1024x1024,True,75uMtamoxifen

@@ -1,0 +1,47 @@
+name: chemores
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.10
+
+  # Data science
+  - numpy>=1.21.0
+  - pandas>=1.3.0
+  - scikit-learn>=1.0.0
+  - scipy>=1.7.0
+
+  # Deep learning
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda=11.8
+
+  # Image processing
+  - opencv>=4.5.0
+  - pillow>=8.3.0
+  - scikit-image>=0.18.0
+
+  # Visualization
+  - matplotlib>=3.4.0
+  - seaborn>=0.11.0
+
+  # Jupyter
+  - jupyter
+  - jupyterlab
+
+  # Development
+  - pytest
+  - pytest-cov
+  - black
+  - flake8
+  - mypy
+
+  # Pip dependencies
+  - pip
+  - pip::plotly>=5.0.0
+  - pip::umap-learn>=0.5.0
+  - pip::harmonypy>=0.0.7
+  - pip::tqdm>=4.62.0
+  - pip::python-dotenv>=0.19.0

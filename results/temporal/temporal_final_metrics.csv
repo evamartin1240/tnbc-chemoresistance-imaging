@@ -1,0 +1,7 @@
+metric,value
+LOOCV accuracy,87.50%
+Best feature,342_slope
+Best feature coefficient,-0.846
+Misclassified file(s),TAMO-MB231
+Top gap channel at t=6,342
+Top gap value at t=6,-0.6727
